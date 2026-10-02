@@ -2,7 +2,7 @@
 
 try {
     $connection = mysqli_connect("localhost","root","","kepegawaian");
-    echo "Berhasil";
+    // echo "Berhasil";
 } catch (Exception $e) {
     echo "Gagal: " . $e->getMessage();
 }
