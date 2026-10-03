@@ -2,7 +2,7 @@
     <body>
         <h2>Tambah Data Pegawai</h2>
         <div class="form-data" style="margin-left: 50px;">
-            <form method="POST" action="">
+            <form method="POST" action="insert.php">
                 <label for="">
                     Nama
                 </label>
