@@ -9,6 +9,11 @@ $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
 
 <html>
     <h3>List Pegawai PT. Satu Dua Tiga</h3>
+    <br>
+    <div>
+        <a href="add.php">Tambah Data</a>
+    </div>
+    <br>
     <table border="1">
         <thead>
             <tr>
