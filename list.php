@@ -8,6 +8,7 @@ $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
 ?>
 
 <html>
+    <h3>List Pegawai PT. Satu Dua Tiga</h3>
     <table border="1">
         <thead>
             <tr>
@@ -27,8 +28,8 @@ $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
         </thead>
         <?php foreach($result as $index => $pegawai) : ?>
             <tr>
-                <td><?php echo $index + 1 ?></td>
-                <td><?php echo $pegawai["nama"] ?></td>
+                <td><?= $index + 1 ?></td>
+                <td><a href="profile.php?id=<?= $pegawai["id"]?>"><?php echo $pegawai["nama"] ?></a></td>
                 <td><?php echo $pegawai["jenis_kelamin"] ?></td>
                 <td><?php echo $pegawai["alamat"] ?></td>
             </tr>
