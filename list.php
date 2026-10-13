@@ -40,7 +40,10 @@ $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
                 <td><a href="profile.php?id=<?= $pegawai["id"]?>"><?php echo $pegawai["nama"] ?></a></td>
                 <td><?php echo $pegawai["jenis_kelamin"] ?></td>
                 <td><?php echo $pegawai["alamat"] ?></td>
-                <td><a href="edit.php?id=<?= $pegawai["id"]?>">Edit</a></td>
+                <td>
+                    <a href="edit.php?id=<?= $pegawai["id"]?>">Edit</a> | 
+                    <a href="delete.php?id=<?= $pegawai["id"]?>">Hapus</a>
+                </td>
             </tr>
         <?php endforeach ?>
     </table>
