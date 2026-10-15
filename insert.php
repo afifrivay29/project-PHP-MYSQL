@@ -17,7 +17,7 @@ try {
         VALUES 
         ('$nama', '$jenis_kelamin', '$alamat', '$tempat_lahir', '$tanggal_lahir', '$nomer_seluler', '$status_perkawinan')");
 
-        header("Location:list.php"); //kembalikkan ke halaman list.php
+        header("Location:index.php"); //kembalikkan ke halaman index.php
 
 } catch (Exception $e) {
 

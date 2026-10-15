@@ -46,6 +46,6 @@ $pegawai = mysqli_fetch_assoc($query);
     </table>
     <br>
     <br>
-    <div><a href="list.php">kembali</a></div>
+    <div><a href="index.php">kembali</a></div>
 </body>
 </html>

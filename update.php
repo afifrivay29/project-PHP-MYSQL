@@ -25,7 +25,7 @@ try {
                 WHERE id = $id
                 ");
 
-        header("Location:list.php"); //kembalikkan ke halaman list.php
+        header("Location:index.php"); //kembalikkan ke halaman index.php
 
 } catch (Exception $e) {
 
